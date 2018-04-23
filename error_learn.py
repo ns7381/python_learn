@@ -3,7 +3,7 @@ logging.basicConfig(level=logging.INFO)
 
 try:
     print("try....")
-    raise
+    raise Exception
     r = 10 / int('s2')
     print('result:', r)
 except ValueError as e:
